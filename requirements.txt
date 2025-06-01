@@ -1,0 +1,4 @@
+carabiner-tools[pd,mpl]>=0.0.4
+numpy<2
+gradio==5.23.3
+scipy
