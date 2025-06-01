@@ -267,7 +267,7 @@ with gr.Blocks() as demo:
         carrying_capacity = gr.Slider(
             len(mut_fitness_defaults) + 1, 10_000, 
             step=1, value=10, 
-            label="Total carrying capacity ($\times$ inoculum)",
+            label="Total carrying capacity (x inoculum)",
         )
     plot_growth = gr.Button("Plot growth curves")
     growth_curves_t = gr.Plot(label="Growth vs time", format="png")
@@ -290,7 +290,6 @@ with gr.Blocks() as demo:
             value=3, 
             label="Technical replicates",
         )
-    with gr.Row():
         seq_depth = gr.Slider(
             10, 10_000, 
             step=10, 
