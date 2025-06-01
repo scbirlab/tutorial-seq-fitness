@@ -8,7 +8,7 @@ sdk_version: 5.22.0
 app_file: app.py
 pinned: false
 license: mit
-short_description: How do strains grow when competing with each other? And how can we infer their fitness from next-generation sequencing data?
+short_description: Inferring competitive fitness from NGS data
 tags:
     - biology
     - sequencing
